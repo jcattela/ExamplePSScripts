@@ -29,7 +29,7 @@ function runFunction(i) {
 	
 	goThroughLayers(doc, i);
 	
-	var saveFile = File("E:/Utah Work/NFL Draft Recruit Graphics 2018/NFL Jersey Templates/Recuit Jerseys 2021/" + indexThing[i] + "_" + firstNames[i] + "_" + lastNames[i] + ".png");
+	var saveFile = File("E:/Utah Work/NFL Draft Recruit Graphics 2021/NFL Jersey Templates/Recuit Jerseys 2021/" + indexThing[i] + "_" + firstNames[i] + "_" + lastNames[i] + ".png");
 						
 	function savePNG(saveFile) {
 	var pngSaveOptions = new PNGSaveOptions();
